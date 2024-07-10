@@ -1,1 +1,1 @@
-# Commom ReadMe ffor both folders
+# Commom ReadMe for both folders
