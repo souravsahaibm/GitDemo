@@ -1,0 +1,39 @@
+General Steps :-
+1. Need to install VS Code and Git Bash for Windows in our local system
+2. Git Configuration - 
+    a. > git config --global user.name "<GitHub repo name>"
+    b. > git config --global user.email "<GitHub logged in mail Id>"
+    c. > git config --list => to check Configuration list in cmd
+
+Workflow if We have a repos in GitHub and that need to download in our local system and modify on it. Steps are -
+1. Clone git repo from remote to local [> git clone "repo link"] and then CD into new repository
+[> ls or ls -a => to check list of files after cloning]
+Change or modify in files locally and now need to update the same in github repo.
+[> git status => to check file/local repo status]
+2. > git add <file name> / .(dot) [to add all moddified files]
+3. > git commit -m "<message>"
+4. > git push origin <branch name> [Ex: main]
+
+Workflow if we already have existing project or files in our local system and that need to upload in github for version control then
+Steps are -
+1. > git init [used to create a new git repo]
+Same we need to create a new repo in remote location.
+2. > git remote add origin <remote url>
+[> git remote -v => to varify remote, > git branch => to check available branchs, > git branch -M <new branch name> => to rename branch]
+3. > git add .
+4. > git commit -m "<message>"
+5. > git push origin <branch name> or > git push -u origin <branch name> [to set upStream for next time]
+
+Git Branch commands => > git branch => to check branch List
+                       > git branch -M <new branch name> => to rename a branch
+                       > git checkout <branch name> => to switch from one branch to another branch
+                       > git checkout -b <new branch name> => create a new branch
+                       > git branch -d <branch name> => to delete a branch
+
+Merging Commands:-
+> git diff <branch name> => to check differences between two branches
+> git merge <branch name>
+
+Undoing Changes:-
+
+
