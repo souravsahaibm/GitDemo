@@ -35,5 +35,15 @@ Merging Commands:-
 > git merge <branch name>
 
 Undoing Changes:-
+If files only added or staged into git then =>
+> git reset <file name>
+> git reset => [if multiple files need to reset from staged]
+
+If files added and commited into git then =>
+> git reset HEAD~1 => It will rollback last or Head commit
+
+If we need to rollback our code to a perticular commit then =>
+> git reset <commit hash code>
+> git reset --hard <commit hash code> => It will change in git aas well as in our editor also.
 
 
